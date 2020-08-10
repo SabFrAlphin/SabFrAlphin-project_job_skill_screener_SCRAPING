@@ -23,4 +23,12 @@ The PostgreSQL database can either be run locally or e.g. via Amazon RDS.
 - download latest chromedriver for your system [here] (https://chromedriver.chromium.org/)
 - run python scripts consecutively
 1. 'JobsUrls.py' for getting the job Urls
+- scrapes list of Urls and adds labes 'FALSE' to database column 'Is_Scraped'
+- once Url metadata is scraped, label will be switched to 'TRUE'
+![structurejobs](/98_presentation/structure_jobsUrls.jpeg)
+
+
 2. 'MainWithoutLogin.py' to scrape all metadata from linkedin
+- stores all metadata found on one specific linkedin job add per row
+- calculates the time job was added based on information 'job_ad_duration' and adds result to column 'date_added'
+![structurespecifications](/98_presentation/structure_specifications.jpeg)
