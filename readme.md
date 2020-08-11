@@ -7,7 +7,7 @@ Create a dynamic web scraper, that will get job advertising data for the Berlin 
 - Data Analyst
 - Data Engineer
 
-This data collection in Part I of II. The collected data will be the foundation to run machine learning on in Part II
+This data collection in Part I of II. The collected data will be the foundation to run machine learning on in [Part II](https://github.com/SabFrAlphin/project_job_skill_screener_DATA_ML)
 
 
 ## Structure:
