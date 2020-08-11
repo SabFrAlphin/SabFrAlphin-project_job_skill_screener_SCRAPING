@@ -1,5 +1,5 @@
 
-# Linkedin job ad webscraping
+# Berlin Tech Job Market - Linkedin job ad webscraping
 
 ## Objective:
 Create a dynamic web scraper, that will get job advertising data for the Berlin tech job market, stores them in a postgres SQL database.
